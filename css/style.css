@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'robotolight';
+    src: url('assets/roboto-light-webfont.woff2') format('woff2'),
+         url('assets/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.bg-primary{
+    background-color: #009414 !important;
+}
+
+body {
+    font-family: 'robotolight', sans-serif !important;
+    background-color: #2f332f;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #009414!important;
+    box-shadow: 0px 10px 14px -7px #000000;
+}
+
+.btn-secondary {
+    background-color: #2f332f !important;
+    box-shadow: 0px 10px 14px -7px #000000;
+}
+
+.commands {
+    text-align: center;
+    color: #fff !important;
+    background-position: bottom !important;
+    background-size: 300% !important;
+    background-repeat: no-repeat !important;
+}
+
+.heading {
+    text-align: center;
+    color: #fff !important;
+    background-position: bottom !important;
+    background-size: 300% !important;
+    background-repeat: no-repeat !important;
+}
+
+.title {
+    line-height: 90px !important;
+    margin-bottom: -2px !important;
+    font-size: 40px !important
+}
+
+.footer .bot-footer {
+    text-align: center !important;
+    color: #a2a8bd !important
+}
