@@ -46,10 +46,10 @@
             <a class="nav-link" style="font-size: 12px;" href="#commands">Commands</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="font-size: 12px;" href="#">Github</a>
+            <a class="nav-link" style="font-size: 12px;" href="#github">Github</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="font-size: 12px;" href="#">Vote</a>
+            <a class="nav-link" style="font-size: 12px;" href="#vote">Vote</a>
           </li>
         </ul>
       </div>
@@ -69,51 +69,75 @@
 
   <div class="commands">
     <a id="commands"></a>
-    <h1 class="display-5 title">Commands</h1>
+    <h1 class="display-5" style="font-size:40px;">Commands</h1>
     <div id="accordion" role="tablist" aria-multiselectable="true" class="card-collapse">
       <div class="card card-plain">
         <div class="card-header" role="tab" id="headingOne">
-          <a class="collapsed" style="color: #02bf1b; font-size: 20px;" data-toggle="collapse" data-parent="#accordion"
+          <a class="collapsed" style="color: #02bf1b; font-size: 28px;" data-toggle="collapse" data-parent="#accordion"
             href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             General
-
             <i class="fas fa-sort-down"></i>
           </a>
         </div>
 
         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
-            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-            you probably haven't heard of them accusamus labore sustainable VHS.
+          <div class="card-body" style="font-size: 19px">
+            -help - Shows a link to Cobra's website<br />
+            -random (minimum number, maximum number) - Gets a random number between minNumber and maxNumber<br />
+            -usinfo (@User) - Shows info about the mentioned user<br />
+            -clean (number of messages) - Cleans messages from chat with specified number<br />
+            -poll (question) - Asks a question on the chat<br />
+            -lmgtfy (text) - Creates a lmgtfy link with text specified<br />
+            -dict (word) - Returns the definition of the specified word<br />
+            -steam (id) - Shows Steam profile Info for a specific SteamID<br />
+            -covid (country) - Shows COVID19 data for specified country<br />
+            -weather (city) - Shows current weather for specific city<br />
           </div>
         </div>
       </div>
       <div class="card card-plain">
         <div class="card-header" role="tab" id="headingTwo">
-          <a class="collapsed" style="color: #02bf1b; font-size: 20px;" data-toggle="collapse" data-parent="#accordion"
+          <a class="collapsed" style="color: #02bf1b; font-size: 28px;" data-toggle="collapse" data-parent="#accordion"
             href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Music
-
             <i class="fas fa-sort-down"></i>
           </a>
         </div>
+
         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
-            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-            you probably haven't heard of them accusamus labore sustainable VHS.
+          <div class="card-body" style="font-size: 19px">
+            -play (song name) - Plays song specified<br />
+            -pause - Pauses music playback<br />
+            -resume - Resumes music playback<br />
+            -stop - Stops audio stream and makes bot leave channel<br />
+            -queue - Lists queued songs<br />
+            -skip - Skips current song<br />
+            -remove (queue index) OR (queue start index, queue end index) - Removes songs from queue at index, or<br />
+            removes songs from start index to end index<br />
+            -shuffle - Shuffles queue<br />
+            -lyrics - Shows lyrics for current song<br />
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="github">
+    <a id="github"></a>
+    <h1 class="display-5" style="font-size:40px;">Github</h1>
+    <a href="https://github.com/Matcheryt/CobraBot" target="_blank"><img
+        src="https://gh-card.dev/repos/Matcheryt/CobraBot.svg"
+        style="border-style: solid; border-color: black;     box-shadow: 0px 10px 14px -7px #000000;  "></a>
+  </div>
+
+  <div class="vote">
+    <a id="vote"></a>
+    <h1 class="display-5" style="font-size:40px;">Vote</h1>
+    <a href="https://top.gg/bot/389534436099883008" target="_blank">
+      <img src="https://top.gg/api/widget/389534436099883008.svg" alt="Cobra" />
+    </a>
+  </div>
+
 
   <div class="footer">
     <div class="bot-footer">

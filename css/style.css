@@ -30,14 +30,6 @@ body {
     box-shadow: 0px 10px 14px -7px #000000;
 }
 
-.commands {
-    text-align: center;
-    color: #fff !important;
-    background-position: bottom !important;
-    background-size: 300% !important;
-    background-repeat: no-repeat !important;
-}
-
 .heading {
     text-align: center;
     color: #fff !important;
@@ -46,13 +38,35 @@ body {
     background-repeat: no-repeat !important;
 }
 
+.commands {
+    text-align: center;
+    color: #fff !important;
+    background-position: bottom !important;
+    background-size: 300% !important;
+    background-repeat: no-repeat !important;
+    margin-top: 20px;
+}
+
+.github {
+    text-align: center;
+    color: #fff !important;
+    margin-top: 100px;
+}
+
+.vote {
+    text-align: center;
+    color: #fff !important;
+    margin-top: 100px;
+}
+
 .title {
     line-height: 90px !important;
     margin-bottom: -2px !important;
-    font-size: 40px !important
+    font-size: 45px !important
 }
 
 .footer .bot-footer {
+    padding-top: 175px;
     text-align: center !important;
     color: #a2a8bd !important
 }
