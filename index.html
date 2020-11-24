@@ -63,7 +63,12 @@
         <a class="btn btn-primary btn-lg"
           href="https://discord.com/api/oauth2/authorize?client_id=389534436099883008&permissions=3664960&redirect_uri=https%3A%2F%2Fdiscordapp.com%2F&scope=bot"
           target="_blank" role="button">Add to server</a>
-        <a class="btn btn-secondary btn-lg" href="#commands" role="button">Commands</a>
+
+        <script>function showCommandsTab() {
+            $('[href="#commands"]').tab('show');
+          }</script>
+        <a class="btn btn-secondary btn-lg" onclick="showCommandsTab()">Commands</a>
+
         <br /><br /><br /><br /><br /><br />
       </div>
     </div>
